@@ -46,7 +46,6 @@ public class Test {
 					  modifiedList.remove(modifiedList.size()-1);
 					  modifiedList.add(new Range(lastStart,r2.getEnd())); 
 					  lastEnd = r2.getEnd();
-					  lastStart=r1.getStart();
 				  }
 				  
 				  it.next();
